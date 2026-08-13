@@ -1,5 +1,4 @@
-const listaTexto = "maçã,banana,laranja,uva";
-const listaFormatada = listaTexto.split(",").join(" | ");
-
-console.log(listaFormatada); 
+let texto = "maçã,banana,laranja,uva";
+let novoTexto = texto.split(" ").join("|")
+console.log(novoTexto) 
 
