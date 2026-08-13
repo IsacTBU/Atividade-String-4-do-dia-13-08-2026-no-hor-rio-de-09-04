@@ -1,5 +1,4 @@
-const fraseMisturada = "Isso é MUITO Perigoso";
-const temPerigoso = fraseMisturada.toLowerCase().includes("perigoso");
-
-console.log(temPerigoso); 
+let misturadas = "Isso é MUITO Perigoso";
+let nova = misturadas .toLowerCase().includes("muito");
+console.log(nova); 
 
