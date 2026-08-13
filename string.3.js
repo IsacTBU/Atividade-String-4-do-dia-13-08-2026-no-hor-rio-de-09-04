@@ -1,4 +1,4 @@
-const emailIncorreto = "  CONTATO@MEUSITE.COM  ";
-const emailPadrao = emailIncorreto.trim().toLowerCase();
+const errada = "  CONTATO@MEUSITE.COM  ";
+const email = errada.trim().toLowerCase();
 
-console.log(emailPadrao); 
+console.log(email); 
